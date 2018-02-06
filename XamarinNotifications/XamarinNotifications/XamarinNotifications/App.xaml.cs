@@ -110,7 +110,7 @@ namespace XamarinNotifications
 
         protected override void OnSleep()
         {
-            base.OnSleep();
+            /*base.OnSleep();
             for (int i = 0; i < 10; i++)
             {
                 Task.Delay(2000).Wait();
@@ -123,6 +123,7 @@ namespace XamarinNotifications
                 });
             }            
             App.IsInBackgrounded = true;
+            */
         }
 
         public static async Task Sleep(int ms)

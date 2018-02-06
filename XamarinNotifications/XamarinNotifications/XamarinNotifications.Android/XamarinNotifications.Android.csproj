@@ -59,8 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MyAlarmReceiver.cs" />
+    <Compile Include="MyTestService.cs" />
+    <Compile Include="MyTestServiceBom.cs" />
+    <Compile Include="MyTestServiceRuim.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleStartedService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
